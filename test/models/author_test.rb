@@ -6,7 +6,6 @@ describe Author do
   describe "author" do
     it "has books" do
       test_author = Author.where(name: "Sandi Metz")
-      binding.pry
     end
   end
 

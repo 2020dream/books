@@ -54,6 +54,11 @@
         <% end %>
       </section>
 
+      <p>
+        What time is it now?
+        <%= readable_date(DateTime.now) %>
+      </p>
+
       <%= yield %>
     </main>
   </body>
